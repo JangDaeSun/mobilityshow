@@ -8,11 +8,11 @@
       <div class="n_menu" v-if="menu==true" @mouseleave="menu=false">
         <div class="fix">
           <ul>
-            <li class="page_btn"><router-link to="/Overview">전시개요</router-link></li>
-            <li class="page_btn"><router-link to="/Item">전시품목</router-link></li>
-            <li class="page_btn"><router-link to="/Exhibition">역대 서울모빌리티쇼</router-link></li>
-            <li class="page_btn"><router-link to="/Inquire">참가문의</router-link></li>
-            <li class="page_btn"><router-link to="/Notice">공지사항</router-link></li>
+            <li class="page_btn"><router-link to="/mobilityshow/Overview">전시개요</router-link></li>
+            <li class="page_btn"><router-link to="/mobilityshow/Item">전시품목</router-link></li>
+            <li class="page_btn"><router-link to="/mobilityshow/Exhibition">역대 서울모빌리티쇼</router-link></li>
+            <li class="page_btn"><router-link to="/mobilityshow/Inquire">참가문의</router-link></li>
+            <li class="page_btn"><router-link to="/mobilityshow/Notice">공지사항</router-link></li>
           </ul>
           <i @click="menu=false" class="fa-solid fa-xmark"></i>
         </div>
@@ -23,7 +23,7 @@
     <div class="nav">
       <nav>
         <div class="left">
-          <router-link to="/"><img class="page_btn" src="./assets/logo.png" alt="logo"></router-link>
+          <router-link to="/mobilityshow"><img class="page_btn" src="./assets/logo.png" alt="logo"></router-link>
         </div>
         <div class="right">
           <div class="search left">
