@@ -24,42 +24,42 @@ const router = createRouter({
 //  hash: createWebHash(),
  routes: [
     {
-        path: '/',
+        path: '/mobilityshow',
         components: {
             default: Main,
             Head:M_head,
         },
     },
     {
-        path: '/Overview',
+        path: '/mobilityshow/Overview',
         components: {
           default: Overview,
           Head:O_head,
         },
     },
     {
-        path: '/Item',
+        path: '/mobilityshow/Item',
         components: {
           default: Item,
           Head:I_head,
         },
     },
     {
-        path: '/Exhibition',
+        path: '/mobilityshow/Exhibition',
         components: {
             Exhibition: Exhibition,
             Head:E_head,
         },
     },
     {
-        path: '/Inquire',
+        path: '/mobilityshow/Inquire',
         components: {
             default: Inquire,
             Head:In_head,
         },
     },
     {
-        path: '/Notice',
+        path: '/mobilityshow/Notice',
         components: {
             default: Notice,
             Head:N_head,
